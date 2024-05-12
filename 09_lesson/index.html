@@ -68,7 +68,7 @@
     </p>
     <p>
       <label for="coffee">Favorite Coffee:</label>
-      <select name="coffee" id="coffee" >
+      <select name="coffee" id="coffee">
         <optgroup label="Coffees">
           <option value="regular coffee">Regular Coffee</option>
           <option value="iced coffee">Iced Coffee</option>
@@ -81,6 +81,16 @@
         </optgroup>
         <option value="other">Other</option>
       </select>
+    </p>
+    <p>
+      <label for="data-list">Data List</label>
+      <input type="text" name="data" id="data" list="data-list" />
+      <datalist id="data-list">
+        <option value="data"></option>
+        <option value="list"></option>
+        <option value="example"></option>
+        <option value="nice"></option>
+      </datalist>
     </p>
   </body>
 </html>
