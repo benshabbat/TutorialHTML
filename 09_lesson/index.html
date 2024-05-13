@@ -12,90 +12,90 @@
   <body>
     <h1>Inputs</h1>
     <form action="">
-<fieldset>
-
-  <p>
-    <label for="firstName">First Name</label>
-    <input
-    type="text"
-    id="firstName"
-    name="firstName"
-        placeholder="first name"
-        autocomplete="on"
-        required
-        />
-      </p>
-      <p>
-        <label for="lastName">Last Name</label>
-        <input
-        type="text"
-        id="lastName"
-        name="lastName"
-        placeholder="last name"
-        autocomplete="on"
-        required
-        />
-      </p>
-      <p>
-        <label for="password">Password</label>
-        <input
-        type="password"
-        id="password"
-        name="password"
-        placeholder="Password"
-        required
-        />
-      </p>
-      <p>
-        <label for="phone">Phone:</label>
-        <input
-        type="tel"
-        name="phone"
-        id="phone"
-        placeholder="0501234567"
-        pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
-        required
-        />
-      </p>
-      <p>
-        <label for="range">Range:</label>
-        <input
-        type="number"
-        name="range"
-        id="range"
-        min="1950"
-        max="2020"
-        step="10"
-        value="1980"
-        />
-      </p>
-      <p>
-        <label for="coffee">Favorite Coffee:</label>
-        <select name="coffee" id="coffee">
-          <optgroup label="Coffees">
-            <option value="regular coffee">Regular Coffee</option>
-            <option value="iced coffee">Iced Coffee</option>
-          </optgroup>
-          <optgroup label="Espresso Drinks">
-            <option value="latte" selected>Latte</option>
-            <option value="cappuccino">Cappuccino</option>
-            <option value="cortado">Cortado</option>
-            <option value="americano">Americano</option>
-          </optgroup>
-          <option value="other">Other</option>
-        </select>
-      </p>
-      <p>
-        <label for="data-list">Data List</label>
-        <input type="text" name="data" id="data" list="data-list" />
-      <datalist id="data-list">
-        <option value="data"></option>
-        <option value="list"></option>
-        <option value="example"></option>
-        <option value="nice"></option>
-      </datalist>
-    </p>
-  </fieldset>
-  </form>
-</body>
+      <fieldset>
+        <legend>Personal Info</legend>
+        <p>
+          <label for="firstName">First Name</label>
+          <input
+            type="text"
+            id="firstName"
+            name="firstName"
+            placeholder="first name"
+            autocomplete="on"
+            required
+          />
+        </p>
+        <p>
+          <label for="lastName">Last Name</label>
+          <input
+            type="text"
+            id="lastName"
+            name="lastName"
+            placeholder="last name"
+            autocomplete="on"
+            required
+          />
+        </p>
+        <p>
+          <label for="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Password"
+            required
+          />
+        </p>
+        <p>
+          <label for="phone">Phone:</label>
+          <input
+            type="tel"
+            name="phone"
+            id="phone"
+            placeholder="0501234567"
+            pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
+            required
+          />
+        </p>
+        <p>
+          <label for="range">Range:</label>
+          <input
+            type="number"
+            name="range"
+            id="range"
+            min="1950"
+            max="2020"
+            step="10"
+            value="1980"
+          />
+        </p>
+        <p>
+          <label for="coffee">Favorite Coffee:</label>
+          <select name="coffee" id="coffee">
+            <optgroup label="Coffees">
+              <option value="regular coffee">Regular Coffee</option>
+              <option value="iced coffee">Iced Coffee</option>
+            </optgroup>
+            <optgroup label="Espresso Drinks">
+              <option value="latte" selected>Latte</option>
+              <option value="cappuccino">Cappuccino</option>
+              <option value="cortado">Cortado</option>
+              <option value="americano">Americano</option>
+            </optgroup>
+            <option value="other">Other</option>
+          </select>
+        </p>
+        <p>
+          <label for="data-list">Data List</label>
+          <input type="text" name="data" id="data" list="data-list" />
+          <datalist id="data-list">
+            <option value="data"></option>
+            <option value="list"></option>
+            <option value="example"></option>
+            <option value="nice"></option>
+          </datalist>
+        </p>
+      </fieldset>
+    </form>
+  </body>
 </html>
