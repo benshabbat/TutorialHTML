@@ -11,59 +11,61 @@
   </head>
   <body>
     <h1>Inputs</h1>
-    <p>
-      <label for="firstName">First Name</label>
-      <input
+    <form action="">
+
+      <p>
+        <label for="firstName">First Name</label>
+        <input
         type="text"
         id="firstName"
         name="firstName"
         placeholder="first name"
         autocomplete="on"
         required
-      />
+        />
     </p>
     <p>
       <label for="lastName">Last Name</label>
       <input
-        type="text"
-        id="lastName"
-        name="lastName"
-        placeholder="last name"
-        autocomplete="on"
-        required
+      type="text"
+      id="lastName"
+      name="lastName"
+      placeholder="last name"
+      autocomplete="on"
+      required
       />
     </p>
     <p>
       <label for="password">Password</label>
       <input
-        type="password"
-        id="password"
-        name="password"
-        placeholder="Password"
-        required
+      type="password"
+      id="password"
+      name="password"
+      placeholder="Password"
+      required
       />
     </p>
     <p>
       <label for="phone">Phone:</label>
       <input
-        type="tel"
-        name="phone"
-        id="phone"
-        placeholder="0501234567"
-        pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
-        required
+      type="tel"
+      name="phone"
+      id="phone"
+      placeholder="0501234567"
+      pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
+      required
       />
     </p>
     <p>
       <label for="range">Range:</label>
       <input
-        type="number"
-        name="range"
-        id="range"
-        min="1950"
-        max="2020"
-        step="10"
-        value="1980"
+      type="number"
+      name="range"
+      id="range"
+      min="1950"
+      max="2020"
+      step="10"
+      value="1980"
       />
     </p>
     <p>
@@ -92,5 +94,7 @@
         <option value="nice"></option>
       </datalist>
     </p>
+  </form>
   </body>
-</html>
+  </html>
+  
